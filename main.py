@@ -1,4 +1,5 @@
-import curses
+import pymongo
+import bson
+import MongoModule
 
-
-curses.initscr()
+database = MongoModule().getDatabase()
