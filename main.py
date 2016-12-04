@@ -1,0 +1,4 @@
+import curses
+
+
+curses.initscr()
